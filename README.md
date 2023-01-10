@@ -11,7 +11,6 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -53,15 +52,6 @@ Users should be able to:
 
 Learned how to add animation to html elements.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-I learned how to style the placeholder text in a form.
-
-```html
-input::placeholder { color: var(--Desaturated-Red); font-weight: 200; font-size: 14px; }
-```
 
 ```css
 h1,
@@ -75,6 +65,15 @@ p {
     transform: translateX(0);
   }
 }
+```
+
+I learned how to style the placeholder text inside a form.
+
+```html
+input::placeholder { color: var(--Desaturated-Red); font-weight: 200; font-size: 14px; }
+```
+
+
 ```
 
 Used HTML form validation with Javascript to display error message when input is not valid.
@@ -94,9 +93,6 @@ form.addEventListener("submit", (e) => {
 });
 ```
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 ### Useful resources
 
